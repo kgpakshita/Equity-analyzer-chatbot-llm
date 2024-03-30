@@ -5,8 +5,6 @@ This chatBot is a user-friendly news research tool designed for effortless infor
 
 ![](chatbot.jpg)
 
-
-
 ## Problem statement
 
 Financial analysts and investors face a growing challenge: staying informed in a fast-paced market flooded with financial news. Manually sifting through numerous articles to extract key insights is time-consuming and inefficient. Existing solutions, such as large language models (LLMs), often require copying entire documents and have limitations in handling large datasets or providing source attribution.
@@ -26,7 +24,7 @@ While ChatGPT is powerful, it falls short in specific areas:
    - The system utilizes `textloader` or `unstructuredURLLoader` (Langchain) for loading.
 
 2. ### Efficient Text Splitting:
-   - The loaded text is divided into smaller chunks (`chunk1...chunkn`).
+   - The loaded text is divided into 'n' smaller chunks.
    - A `characterTextsplitter` or `recursivetextsplitter` (Langchain) handles splitting, ensuring words remain intact to avoid information loss.
    - Chunked text is further merged and overlapped to optimize for search efficiency and alleviate token limitation issues.
 
@@ -57,3 +55,6 @@ While ChatGPT is powerful, it falls short in specific areas:
 ## Built with Streamlit:
 
 This project is built using Streamlit, facilitating a user-friendly, interactive web-based experience.
+Below is the video presentation of the app
+## Video presentation
+
