@@ -58,3 +58,7 @@ This project is built using Streamlit, facilitating a user-friendly, interactive
 Below is the video presentation of the app
 ## Video presentation
 
+
+https://github.com/kgpakshita/Equity-analyzer-chatbot-llm/assets/100424526/84bc1d8f-fe09-4901-a745-c0df266fe864
+
+
